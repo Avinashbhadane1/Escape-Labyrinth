@@ -35,4 +35,7 @@ public class EnemyAI : MonoBehaviour
             }
         }
     }
+    void OnDestroy(){
+        Debug.Log("Monster Died");
+    }
 }

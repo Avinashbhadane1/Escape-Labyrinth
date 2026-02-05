@@ -26,8 +26,17 @@
                 },
                 {
                     "name": "View",
-                    "type": "Button",
+                    "type": "Value",
                     "id": "401ea497-5494-4753-acba-d6a4bd661edd",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Crouch",
+                    "type": "Button",
+                    "id": "0ef7342a-7cad-4dc2-8e02-c908604f9442",
                     "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
@@ -103,8 +112,19 @@
                 },
                 {
                     "name": "",
-                    "id": "444393fa-1910-4446-ba2a-039b262f9438",
-                    "path": "<Keyboard>/f",
+                    "id": "3051dd05-99d1-4da9-919f-285670f5f752",
+                    "path": "<Keyboard>/leftCtrl",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Crouch",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "12992a8f-72c8-4a00-a3b6-c11c7c449e34",
+                    "path": "<Mouse>/delta",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
